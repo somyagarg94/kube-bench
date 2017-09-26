@@ -12,6 +12,9 @@ pipeline {
             agent {
                 docker { image 'aquasec:scanner-cli:2.5' }
             }
+            steps {
+                echo 'Scan step'
+            }
         }
     }
 }
