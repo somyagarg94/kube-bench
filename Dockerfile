@@ -15,7 +15,7 @@ ARG VCS_REF
 LABEL org.label-schema.build-date=$BUILD_DATE \
     org.label-schema.name="kube-bench" \
     org.label-schema.description="Run the CIS Kubernetes Benchmark tests" \
-    org.label-schema.url="https://github.com/aquasecurity/kube-bench" \
+    org.label-schema.url="https://github.com/somyagarg94/kube-bench" \
     org.label-schema.vcs-ref=$VCS_REF \
-    org.label-schema.vcs-url="https://github.com/aquasecurity/kube-bench" \
+    org.label-schema.vcs-url="https://github.com/somyagarg94/kube-bench" \
     org.label-schema.schema-version="1.0"

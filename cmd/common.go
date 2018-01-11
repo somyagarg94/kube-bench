@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/aquasecurity/kube-bench/check"
+	"github.com/somyagarg94/kube-bench/check"
 	"github.com/golang/glog"
 	"github.com/spf13/viper"
 )

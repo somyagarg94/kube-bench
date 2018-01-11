@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/aquasecurity/kube-bench.svg?branch=master)](https://travis-ci.org/aquasecurity/kube-bench)
+[![Build Status](https://travis-ci.org/somyagarg94/kube-bench.svg?branch=master)](https://travis-ci.org/somyagarg94/kube-bench)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Docker image](https://images.microbadger.com/badges/image/aquasec/kube-bench.svg)](https://microbadger.com/images/aquasec/kube-bench "Get your own image badge on microbadger.com")
 [![Source commit](https://images.microbadger.com/badges/commit/aquasec/kube-bench.svg)](https://microbadger.com/images/aquasec/kube-bench)
@@ -9,7 +9,7 @@ The Kubernetes Bench for Security is a Go application that checks whether Kubern
 
 Tests are configured with YAML files, making this tool easy to update as test specifications evolve. 
 
-![Kubernetes Bench for Security](https://raw.githubusercontent.com/aquasecurity/kube-bench/master/images/output.png "Kubernetes Bench for Security")
+![Kubernetes Bench for Security](https://raw.githubusercontent.com/somyagarg94/kube-bench/master/images/output.png "Kubernetes Bench for Security")
 
 ## CIS Kubernetes Benchmark support
 
@@ -24,7 +24,7 @@ Run ```docker run --rm -v `pwd`:/host aquasec/kube-bench:latest```. This will co
 
 2. Install from sources:
 If Go is installed on the target machines, you can simply clone this repository and run as follows: 
-```go get github.com/aquasecurity/kube-bench```
+```go get github.com/somyagarg94/kube-bench```
 ```cp $GOROOT/bin/kube-bench .```
 ```./kube-bench <master|node>```
 

@@ -15,7 +15,7 @@
 package main
 
 import (
-	"github.com/aquasecurity/kube-bench/cmd"
+	"github.com/somyagarg94/kube-bench/cmd"
 )
 
 func main() {
