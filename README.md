@@ -20,7 +20,7 @@ kube-bench supports the tests for multiple versions of Kubernetes (1.6, 1.7 and 
 You can either install kube-bench through a dedicated container, or compile it from source:
 
 1. Container installation:
-Run ```docker run --rm -v `pwd`:/host aquasec/kube-bench:latest```. This will copy the kube-bench binary and configuration to you host. You can then run ```./kube-bench <master|node>```.
+Run ```docker run --rm -v `pwd`:/host somyagarg94/kube-bench:latest```. This will copy the kube-bench binary and configuration to you host. You can then run ```./kube-bench <master|node>```.
 
 2. Install from sources:
 If Go is installed on the target machines, you can simply clone this repository and run as follows: 
