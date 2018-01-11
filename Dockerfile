@@ -1,6 +1,6 @@
 FROM golang:1.9
 WORKDIR /kube-bench
-RUN go get github.com/aquasecurity/kube-bench
+RUN go get github.com/somyagarg94/kube-bench
 
 FROM alpine:latest
 WORKDIR /
