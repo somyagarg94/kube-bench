@@ -9,6 +9,6 @@ if [ -d /host ]; then
   echo "==============================================="
 else
   echo "Usage:"
-  echo "  docker run --rm -v \`pwd\`:/host aquasec/kube-bench"
+  echo "  docker run --rm -v \`pwd\`:/host somyagarg94/kube-bench"
   exit 
 fi
